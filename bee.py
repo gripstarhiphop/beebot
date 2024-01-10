@@ -17,5 +17,5 @@ async def on_command_error(ctx, error):
 extensions = ("reading", "reactroles", "moderation", "commands", "currency", "casino", "stats", "wordle", "beeboard", "welcome", "poll")
 for extension in extensions:
     bot.load_extension(extension)
-token = 'OTI0NDY1NDk1MDQ5MTQyMjcz.Yce9lQ.e-MwlxQAKvoolYyyokAq6CuBPPM'
+token = ''
 bot.run(token)
